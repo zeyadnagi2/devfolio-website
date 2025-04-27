@@ -1,0 +1,25 @@
+img {
+  width: 100%;
+}
+
+.dropdown-menu .dropdown-menu {
+  margin-left: 0.1rem;
+}
+
+.underline-section {
+  width: 3rem;
+}
+
+body{
+    background:#F5F5F5;
+}
+
+.item-icon{
+    width: 7rem;
+    height: 7rem;
+}
+
+.item-icon-inner{
+    width: 5.5rem;
+    height: 5.5rem;
+}

@@ -3,17 +3,366 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Devfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-black bg-opacity">
+      <div class="container-fluid container-md">
+        <a class="navbar-brand fw-medium fs-2 text-white" href="#">DevFolio</a>
 
-    
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-medium gap-3">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu bg-white">
+                <li>
+                  <a class="dropdown-item text-black" href="#">Action 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-black" href="#">Action 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-black" href="#">Action 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-black" href="#">Action 4</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-black" href="#">Action 5</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <!-- Services  -->
+    <div class="services container text-center">
+      <p class="fs-1 fw-bolder mt-4 mb-0">Services</p>
+      <p class="m fs-6 text-dark">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      </p>
+      <div class="underline-section p-1 bg-primary m-auto"></div>
+
+      <div class="row mt-3">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow p-4 rounded-5 mt-4">
+            <div
+              class="item-icon m-auto align-content-center bg-primary text-white rounded-circle fs-1"
+            >
+              <div
+                class="item-icon-inner rounded-circle bg-white m-auto text-dark align-content-center"
+              >
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+            </div>
+            <div class="item-caption pt-3">
+              <p class="fs-4 fw-medium">Web Design</p>
+              <p class="fs-5 fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow p-4 rounded-5 mt-4">
+            <div
+              class="item-icon m-auto align-content-center bg-primary text-white rounded-circle fs-1"
+            >
+              <div
+                class="item-icon-inner rounded-circle bg-white m-auto text-dark align-content-center"
+              >
+                <i class="fa-solid fa-list"></i>
+              </div>
+            </div>
+            <div class="item-caption pt-3">
+              <p class="fs-4 fw-medium">Web Development</p>
+              <p class="fs-5 fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow p-4 rounded-5 mt-4">
+            <div
+              class="item-icon m-auto align-content-center bg-primary text-white rounded-circle fs-1"
+            >
+              <div
+                class="item-icon-inner rounded-circle bg-white m-auto text-dark align-content-center"
+              >
+                <i class="fa-solid fa-chart-simple"></i>
+              </div>
+            </div>
+            <div class="item-caption pt-3">
+              <p class="fs-4 fw-medium">Photography</p>
+              <p class="fs-5 fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow p-4 rounded-5 mt-4">
+            <div
+              class="item-icon m-auto align-content-center bg-primary text-white rounded-circle fs-1"
+            >
+              <div
+                class="item-icon-inner rounded-circle bg-white m-auto text-dark align-content-center"
+              >
+                <i class="fa-solid fa-users-rectangle"></i>
+              </div>
+            </div>
+            <div class="item-caption pt-3">
+              <p class="fs-4 fw-medium">Responsive Design</p>
+              <p class="fs-5 fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow p-4 rounded-5 mt-4">
+            <div
+              class="item-icon m-auto align-content-center bg-primary text-white rounded-circle fs-1"
+            >
+              <div
+                class="item-icon-inner rounded-circle bg-white m-auto text-dark align-content-center"
+              >
+                <i class="fa-solid fa-sun"></i>
+              </div>
+            </div>
+            <div class="item-caption pt-3">
+              <p class="fs-4 fw-medium">Graphic Design</p>
+              <p class="fs-5 fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow p-4 rounded-5 mt-4">
+            <div
+              class="item-icon m-auto align-content-center bg-primary text-white rounded-circle fs-1"
+            >
+              <div
+                class="item-icon-inner rounded-circle bg-white m-auto text-dark align-content-center"
+              >
+                <i class="fa-solid fa-calendar-days"></i>
+              </div>
+            </div>
+            <div class="item-caption pt-3">
+              <p class="fs-4 fw-medium">Marketing Services</p>
+              <p class="fs-5 fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- protfolio -->
+    <div class="protfolio container text-center">
+      <p class="fs-1 fw-bolder mt-5 mb-0">Portfolio</p>
+      <p class="m fs-6 text-dark">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      </p>
+      <div class="underline-section p-1 bg-primary m-auto"></div>
+
+      <div class="row mt-3">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow mt-4">
+            <div class="item-img">
+              <img src="./images/work-1.jpg" alt="" />
+            </div>
+            <div class="item-caption p-3 d-flex align-items-center">
+              <div class="words fs-4 fw-medium">
+                <p class="">lore3 sit amet</p>
+                <p class="ps-1 m-0 fs-6 fw-light">
+                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                </p>
+              </div>
+
+              <div class="add-icon fs-1 ms-auto text-primary">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow mt-4">
+            <div class="item-img">
+              <img src="./images/work-2.jpg" alt="" />
+            </div>
+            <div class="item-caption p-3 d-flex align-items-center">
+              <div class="words fs-4 fw-medium">
+                <p class="">lore3 sit amet</p>
+                <p class="ps-1 m-0 fs-6 fw-light">
+                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                </p>
+              </div>
+
+              <div class="add-icon fs-1 ms-auto text-primary">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow mt-4">
+            <div class="item-img">
+              <img src="./images/work-3.jpg" alt="" />
+            </div>
+            <div class="item-caption p-3 d-flex align-items-center">
+              <div class="words fs-4 fw-medium">
+                <p class="">lore3 sit amet</p>
+                <p class="ps-1 m-0 fs-6 fw-light">
+                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                </p>
+              </div>
+
+              <div class="add-icon fs-1 ms-auto text-primary">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow mt-4">
+            <div class="item-img">
+              <img src="./images/work-4.jpg" alt="" />
+            </div>
+            <div class="item-caption p-3 d-flex align-items-center">
+              <div class="words fs-4 fw-medium">
+                <p class="">lore3 sit amet</p>
+                <p class="ps-1 m-0 fs-6 fw-light">
+                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                </p>
+              </div>
+
+              <div class="add-icon fs-1 ms-auto text-primary">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow mt-4">
+            <div class="item-img">
+              <img src="./images/work-5.jpg" alt="" />
+            </div>
+            <div class="item-caption p-3 d-flex align-items-center">
+              <div class="words fs-4 fw-medium">
+                <p class="">lore3 sit amet</p>
+                <p class="ps-1 m-0 fs-6 fw-light">
+                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                </p>
+              </div>
+
+              <div class="add-icon fs-1 ms-auto text-primary">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="item m-1 bg-white shadow mt-4">
+            <div class="item-img">
+              <img src="./images/work-6.jpg" alt="" />
+            </div>
+            <div class="item-caption p-3 d-flex align-items-center">
+              <div class="words fs-4 fw-medium">
+                <p class="">lore3 sit amet</p>
+                <p class="ps-1 m-0 fs-6 fw-light">
+                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                </p>
+              </div>
+
+              <div class="add-icon fs-1 ms-auto text-primary">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- JavaScript -->
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
