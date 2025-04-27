@@ -19,7 +19,9 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-black bg-opacity">
+    <nav
+      class="navbar navbar-expand-lg bg-black bg-opacity-75 position-fixed start-0 top-0 end-0 z-3"
+    >
       <div class="container-fluid container-md">
         <a class="navbar-brand fw-medium fs-2 text-white" href="#">DevFolio</a>
 
@@ -90,9 +92,23 @@
       </div>
     </nav>
 
+    <!-- Home -->
+    <div class="home w-100 vh-100">
+      <div class="overlay bg-black w-100 vh-100 bg-opacity-50">
+        <div
+          class="home-caption text-center position-relative top-50 start-50 translate-middle"
+        >
+          <p class="home-title text-white fw-medium">I am Morgan Freeman</p>
+          <p class="text-white fs-1 fw-semibold">Designer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- about me -->
+
     <!-- Services  -->
     <div class="services container text-center">
-      <p class="fs-1 fw-bolder mt-4 mb-0">Services</p>
+      <p class="services-title fw-bolder mt-4 mb-0">Services</p>
       <p class="m fs-6 text-dark">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       </p>
@@ -233,10 +249,73 @@
       </div>
     </div>
 
+    <!-- numbers -->
+    <div class="numbers mt-5">
+      <div
+        class="overlay position-relative bg-primary top-0 start-0 end-0 bottom-0 bg-opacity-75"
+      >
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="number-item">
+                <div
+                  class="number-icon fs-3 rounded-circle m-auto text-white align-content-center border border-white"
+                >
+                  <i class="fa-solid fa-check"></i>
+                </div>
+
+                <p class="pt-3 fs-3 fw-semibold text-white">450</p>
+                <p class="fs-5 fw-medium text-white">WORKS COMPLETED</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="number-item">
+                <div
+                  class="number-icon fs-3 rounded-circle m-auto text-white align-content-center border border-white"
+                >
+                  <i class="fa-solid fa-book"></i>
+                </div>
+
+                <p class="pt-3 fs-3 fw-semibold text-white">25</p>
+                <p class="fs-5 fw-medium text-white">YEARS OF EXPERIENCE</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="number-item">
+                <div
+                  class="number-icon fs-3 rounded-circle m-auto text-white align-content-center border border-white"
+                >
+                  <i class="fa-solid fa-users"></i>
+                </div>
+
+                <p class="pt-3 fs-3 fw-semibold text-white">550</p>
+                <p class="fs-5 fw-medium text-white">TOTAL CLIENTS</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="number-item">
+                <div
+                  class="number-icon fs-3 rounded-circle m-auto text-white align-content-center border border-white"
+                >
+                  <i class="fa-solid fa-award"></i>
+                </div>
+
+                <p class="pt-3 fs-3 fw-semibold text-white">48</p>
+                <p class="fs-5 fw-medium text-white">AWARD WON</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- protfolio -->
-    <div class="protfolio container text-center">
-      <p class="fs-1 fw-bolder mt-5 mb-0">Portfolio</p>
-      <p class="m fs-6 text-dark">
+    <div class="protfolio container">
+      <p class="portfolio-title fw-bolder mt-5 mb-0 text-center">Portfolio</p>
+      <p class="m fs-6 text-dark text-center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       </p>
       <div class="underline-section p-1 bg-primary m-auto"></div>
@@ -244,14 +323,15 @@
       <div class="row mt-3">
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="item m-1 bg-white shadow mt-4">
-            <div class="item-img">
+            <div class="item-img overflow-hidden">
               <img src="./images/work-1.jpg" alt="" />
             </div>
             <div class="item-caption p-3 d-flex align-items-center">
               <div class="words fs-4 fw-medium">
                 <p class="">lore3 sit amet</p>
                 <p class="ps-1 m-0 fs-6 fw-light">
-                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                  <span class="text-primary">Web Design</span> / 18 / Sep. /
+                  2018
                 </p>
               </div>
 
@@ -264,14 +344,15 @@
 
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="item m-1 bg-white shadow mt-4">
-            <div class="item-img">
+            <div class="item-img overflow-hidden">
               <img src="./images/work-2.jpg" alt="" />
             </div>
             <div class="item-caption p-3 d-flex align-items-center">
               <div class="words fs-4 fw-medium">
                 <p class="">lore3 sit amet</p>
                 <p class="ps-1 m-0 fs-6 fw-light">
-                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                  <span class="text-primary">Web Design</span> / 18 / Sep. /
+                  2018
                 </p>
               </div>
 
@@ -284,14 +365,15 @@
 
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="item m-1 bg-white shadow mt-4">
-            <div class="item-img">
+            <div class="item-img overflow-hidden">
               <img src="./images/work-3.jpg" alt="" />
             </div>
             <div class="item-caption p-3 d-flex align-items-center">
               <div class="words fs-4 fw-medium">
                 <p class="">lore3 sit amet</p>
                 <p class="ps-1 m-0 fs-6 fw-light">
-                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                  <span class="text-primary">Web Design</span> / 18 / Sep. /
+                  2018
                 </p>
               </div>
 
@@ -304,14 +386,15 @@
 
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="item m-1 bg-white shadow mt-4">
-            <div class="item-img">
+            <div class="item-img overflow-hidden">
               <img src="./images/work-4.jpg" alt="" />
             </div>
             <div class="item-caption p-3 d-flex align-items-center">
               <div class="words fs-4 fw-medium">
                 <p class="">lore3 sit amet</p>
                 <p class="ps-1 m-0 fs-6 fw-light">
-                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                  <span class="text-primary">Web Design</span> / 18 / Sep. /
+                  2018
                 </p>
               </div>
 
@@ -324,14 +407,15 @@
 
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="item m-1 bg-white shadow mt-4">
-            <div class="item-img">
+            <div class="item-img overflow-hidden">
               <img src="./images/work-5.jpg" alt="" />
             </div>
             <div class="item-caption p-3 d-flex align-items-center">
               <div class="words fs-4 fw-medium">
                 <p class="">lore3 sit amet</p>
                 <p class="ps-1 m-0 fs-6 fw-light">
-                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                  <span class="text-primary">Web Design</span> / 18 / Sep. /
+                  2018
                 </p>
               </div>
 
@@ -344,14 +428,15 @@
 
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="item m-1 bg-white shadow mt-4">
-            <div class="item-img">
+            <div class="item-img overflow-hidden">
               <img src="./images/work-6.jpg" alt="" />
             </div>
             <div class="item-caption p-3 d-flex align-items-center">
               <div class="words fs-4 fw-medium">
                 <p class="">lore3 sit amet</p>
                 <p class="ps-1 m-0 fs-6 fw-light">
-                  <span class="text-primary">Web Design</span> / 18 / Sep. / 2018
+                  <span class="text-primary">Web Design</span> / 18 / Sep. /
+                  2018
                 </p>
               </div>
 
@@ -363,6 +448,49 @@
         </div>
       </div>
     </div>
+
+    <!-- admins -->
+    <div class="admins text-center mt-5">
+      <div
+        class="overlay position-relative bg-primary top-0 start-0 end-0 bottom-0 bg-opacity-75 p-5"
+      >
+        <div class="container">
+          <div class="admin-img position-relative start-50 translate-middle-x">
+            <img
+              class="rounded-circle"
+              src="./images/testimonial-2.jpg"
+              alt="admin"
+            />
+          </div>
+
+          <p class="fs-3 fw-bold text-white pt-5">Ziad El-Khashab</p>
+          <p class="fs-4 text-white fw-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            debitis placeat quo esse suscipit dolorem quasi consequatur atque
+            quis quaerat quibusdam tempore, maxime cupiditate reprehenderit et
+            repellat animi molestias consequuntur.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- blog -->
+    <div class="blog container text-center">
+      <p class="blog-title fw-bolder mt-4 mb-0">Blog</p>
+      <p class="m fs-6 text-dark">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      </p>
+      <div class="underline-section p-1 bg-primary m-auto"></div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer p-2 text-center bg-primary mt-5">
+      <p class="fs-6 text-white pt-3">
+        © Copyright <span class="fw-bold">DevFolio.</span> All Rights Reserved
+      </p>
+      <p class="fs-6 text-white">Designed by BootstrapMade</p>
+    </div>
+
     <!-- JavaScript -->
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
